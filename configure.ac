@@ -8,7 +8,7 @@ AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE([subdir-objects])
 
 AC_SUBST(RELEASE, ${RELEASE:-unknown})
-AC_SUBST(TARBALL, ${TARBALL:-${PACKAGE}-${VERSION}.tar.gz})
+AC_SUBST(TARBALL, ${TARBALL:-${VERSION}.zip})
 
 dnl support debug mode
 AC_ARG_ENABLE(debug,
